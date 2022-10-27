@@ -1,0 +1,135 @@
+body{margin: 0;}
+
+#divheader{
+    position: absolute;
+    background-color: aqua;
+    background-position: top 0; height: 38px; width: 100%;
+}
+#iheader { position: absolute;
+    top: 10px;
+    width: 118px;
+    height: 18px;
+    bottom: 10px;
+    text-indent: 27px;
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;    
+    color: black;
+}
+#divTitulo{
+    margin: 0;
+    position:absolute;
+    height: 101px;
+    top: 38px;
+    width: 100%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    background-color: #00669f;
+    
+}
+#titulo{ 
+    margin: 0;
+    text-transform: capitalize;
+    color: black;
+    text-indent: 28px;
+    position: absolute;
+    top: 26px;
+    line-height: 46.66px;
+    font-family: 'Roboto', sans-serif;
+}
+#contenedor{
+    position: absolute;
+    top: 292px;
+    left: 31.5px;
+    width: 1224px;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+
+}
+.carta{
+    position: relative;
+    width: 302px;
+    height: 529px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+}
+#portada{
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+    width: 300px;
+    height: 193px;
+}
+
+#corazon{
+    position: absolute;
+    top: 15.88px;
+    left: 21px;
+    width: 30px;
+    height: 26.25px;
+    color: red;
+}
+
+#perfil{
+    position: relative;
+    top: 126px;
+    left: 87px;
+    width: 122px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+#desc{
+    display: block;
+    position: absolute;
+    font-display: normal;
+    bottom: 104px;
+    left: 16px;
+    height: 113px;
+    width: 267px;
+
+}
+h3{ position: absolute;
+    font-display: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight:bold;
+    text-decoration: underline;
+    height: 35px;
+    width: 122px;
+    bottom: 200px;
+    left: 105px;
+}
+button{
+    position: absolute;
+    bottom: 18.48px;
+    left: 85px;
+    height: 48.52px;
+    width: 128.78px;
+    background-color: #00669f;
+    color: azure;
+}
+
+#lp{ position: absolute;
+    bottom: 16px;
+    font-style: normal;
+    color: azure;
+    position: absolute;
+    text-indent: 27px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 0.8em;
+
+}
+
+#pie{
+    background-color: #00669f;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 51px;
+    
+}
